@@ -76,7 +76,7 @@ Below is an example of a **function** to calculate the square of all the odd int
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 whole numbers in the array
+// has first 100 natural numbers in the array
 func calculateOddSquare(arrayOfInt: [Int]) -> [Int]
 {
     let tempArray = arrayOfInt
@@ -101,7 +101,9 @@ calculateOddSquare(arrayOfInt: numbersToFilter)
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 whole numbers in the array
+
+// has first 100 natural numbers in the array
+
 let oddSquareNumbers = numbersToFilter.filter {
         $0 % 2 == 1 //select all the odd numbers
     }.map {
@@ -172,7 +174,9 @@ Single-expression closures can implicitly return the result of their single expr
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 whole numbers in the array
+
+// has first 100 natural numbers in the array
+
 let filteredNumbers = numbersToFilter.filter({ number in
     number % 2 == 1
 }).map{$0 * $0}
@@ -192,7 +196,9 @@ These are named with a **dollar sign ($)**, then a number counting from number *
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 whole numbers in the array
+
+// has first 100 natural numbers in the array
+
 let filteredNumbers = numbersToFilter.filter({ $0 % 2 == 1})
                                           .map{$0 * $0}
 print(filteredNumbers)
@@ -216,7 +222,9 @@ It doesn’t take any arguments, and when it’s called, it returns the value of
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 integers in the array
+
+// has first 100 natural numbers in the array
+
 let filteredNumbers = numbersToFilter.filter( ){ $0 % 2 == 1}.map{$0 * $0}
 print(filteredNumbers)
 
@@ -229,7 +237,9 @@ If a closure expression is provided as the function’s or method’s only argum
 ```
 var numbersToFilter: [Int] = []
 numbersToFilter.append(contentsOf: 1...100)
-// has first 100 integers in the array
+
+// has first 100 natural numbers in the array
+
 let filteredNumbers = numbersToFilter.filter{ $0 % 2 == 1}.map{$0 * $0}
 print(filteredNumbers)
 
