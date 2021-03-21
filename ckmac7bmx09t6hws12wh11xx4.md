@@ -146,7 +146,7 @@ The compiler can infer/detect return data type, which means there's no reason to
 
 We can only do this if the closure's body includes a single statement, though. In that case, we can put that statement on the same line as the closure's definition, as shown in the below example. 
 
-**Example**: The same function by eliminating parameter and return type in the closure.
+**Example**: The same function by eliminating parameter type and return type in the closure.
 
 ```
 
@@ -160,8 +160,7 @@ print(filteredNumbers)
 
 ``` 
 
-Because there's no return type in the definition and no -> symbol preceding the return type, we can omit the parentheses enclosing the closure's parameters.
-
+Because there's no **return type** in the definition and no **->** symbol preceding the return type, we can omit the **parentheses ( )** enclosing the closure's parameters.
 
 
 
@@ -203,10 +202,9 @@ let filteredNumbers = numbersToFilter.filter({ $0 % 2 == 1})
                                           .map{$0 * $0}
 print(filteredNumbers)
 
-
 ``` 
 
-The first argument is assigned to $0, the next to $1, and so on.
+The first argument is assigned to **$0**, the next to **$1**, and so on.
 
 
 
@@ -247,19 +245,22 @@ print(filteredNumbers)
 
 All the examples above with different syntax will work on **xcode** without any errors. The final syntax in this example is the same as the Closure example on top. All the examples will print the same numbers like that in the Function example on top.
 
-**Operator Methods**
+
+#### **Operator Methods**
 
 There’s actually an even shorter way to write the closure expression. 
 Swift’s String type defines its string-specific implementation of the greater-than operator (>) as a method that has two parameters of type String and returns a value of type Bool. This exactly matches the method type needed by the **sorted(by:)** method. 
 
-You can use a closure `reversedNames = names.sorted(by:** { $0 > $1 }** ) or simply eliminate the shorthand arguments from the closure and use the **operator** to sort the array.
+You can use a closure *reversedNames = names.sorted(by:** { $0 > $1 }** )* or simply eliminate the shorthand arguments from the closure and use the **operator** to sort the array.
 
 **Example**: A closure to sort an array of strings by simply specifying the operator method.
  
 ```
+
 let titanNames = ["godzilla", "kong", "scylla", "muto"]
-    reversedNames = titanNames.sorted(by: >)
+reversedNames = titanNames.sorted(by: >)
 print(reversedNames) 
+
 // prints ["scylla", "muto", "kong", "godzilla"]
 
 ``` 
@@ -300,14 +301,14 @@ print("NOW I AM BANKRUPTED")
 //finally prints one FACT.
 
 ``` 
-The counter variable **numberOfRaces** looks like it is initialized with a value of 0 every time the visitCountry() function is called. However, due to the value capturing of the closure, its value keeps incrementing by one every time we call the closure. In other words, the **bucketList** closure captures the value of the **numberOfRaces** variable.
+The counter variable **numberOfRaces** looks like it is initialized with a value of **0** every time the **visitCountry()** function is called. However, due to the value capturing of the closure, its value keeps incrementing by **1**, every time we call the closure. 
+In other words, the **bucketList** closure captures the value of the **numberOfRaces** variable.
 
 Swift handles all of the memory management of capturing for you. Swift is clever enough to know whether it should copy or reference the values of the constants and variables it captures.
 
 **Example**: Create a new reference to visitCountry() and see the output.
 
 ```
-
 let newList = visitCountry()
 f1Countries.map { $0.uppercased() }.forEach {
     newList($0)
@@ -326,11 +327,10 @@ Number of races covered: 4
 I just visited MONACO
 Number of races covered: 5
 
-
 */
 
 ``` 
-The assignment of visitCountry() to a constant newList will assign a new reference and the value of variable **numberOfRaces** is set to 0 in this new context. Test the example and see the output on the console for yourselves.
+The assignment of visitCountry() to a constant **newList** will assign a new reference and the value of variable **numberOfRaces** is initialised to **0** in this new context. Test the example and see the output on the console for yourselves.
 
 
 **Assignment Example** : Try the below code to see what the **numberOfRaces** current value is. It explains **closing over** the variable numberOfRaces.
@@ -357,7 +357,7 @@ A closure is said to escape a function when the closure is passed as an argument
 
 *Closures are non-escaping by default.*
 
-A secondary feature of escaping closures is that, whenever you refer to a property or method of **self** within the function body, the compiler will insist that you write self explicitly. That’s because such a reference captures self, and the compiler wants you to acknowledge this fact by specifying self explicitly.
+A secondary feature of escaping closures is that, whenever you refer to a property or method of **self** within the function body, the compiler will insist that you write self explicitly. That’s because such a reference captures self, and the compiler wants you to acknowledge this fact by specifying **self** explicitly.
 
    
 > An escaping closure outlives the function it was passed to.
