@@ -62,7 +62,7 @@ In addition, the **Void** is also a valid return data type, which means essentia
 *The parameters in closure expression syntax can be in-out parameters, but they can’t have a default value. Variadic parameters can be used if you name the variadic parameter. Tuples can also be used as parameter types and return types.*
 
 
-### I'll try to explain the syntax of **Closure Expressions** or a typical closure using a function and the below steps.
+## I'll try to explain the syntax of **Closure Expressions** or a typical closure using a function and the below steps.
 
 - **Inferring Type From Context**
 - **Implicit Returns from Single-Expression Closures**
