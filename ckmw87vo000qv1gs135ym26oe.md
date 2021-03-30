@@ -11,7 +11,7 @@ Well look no further, this is an honest attempt to guide you through the learnin
 
 **SwiftUI** is a modern way to declare user interfaces for any **Apple platform**. Swift is a powerful and intuitive programming language for macOS, iOS, watchOS, tvOS, and beyond. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. 
 
-Swift is the result of the latest research on programming languages, combined with decades of experience building Apple platforms. Named parameters are expressed in a clean syntax that makes APIs in Swift even easier to read and maintain.Create beautiful, dynamic apps faster using Swift. 
+Swift is the result of the latest research on programming languages, combined with decades of experience building Apple platforms. Named parameters are expressed in a clean syntax that makes APIs in Swift even easier to read and maintain. Create beautiful, dynamic apps faster using Swift. 
 
 As a developer **reading** is one step in the process of learning anything new, whereas **developing** an app/getting hands-on experience is the **most important one**. It helps understand what you have learned and also clears doubts while learning new technology.
 
