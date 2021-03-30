@@ -65,7 +65,7 @@ A step-by-step guide to build Scrumdinger App completely using SwiftUI and UIKit
 
 
 
-## 🖥 If you are an avid reader online -  Websites 👩🏻‍💻
+🖥 ## If you are an avid reader online -  Websites 
 
 **1. Hacking with Swift **- The guy is a rockstar. The moment you read his explanation, you know that this guy knows his stuff. Probably the best resource online with **100 days of SwiftUI **tutorials.
 
@@ -92,7 +92,7 @@ The catalogue is small but this blog will be helpful when you start making your 
 
 [Click Here](https://blog.techchee.com/) to get to the home page.
 
-## 🎦 If you like watching videos to learn - Youtube 📺
+📺## If you like watching videos to learn - Youtube
 
 People say writing is equal to **10 times** reading something. It helps remember things. That is one of the reasons why I started writing a blog in the first place. 
 I say that watching something is like reading a thing about **100 times**. Our brains are designed to remember and understand something visual better than reading through a dry concept. 
@@ -131,7 +131,7 @@ A series of tutorials explaining concepts in Swift while developing a Memory Gam
 
 These lectures are a little high level for beginners. So I recommend you to finish any basic tutorials and then start this series. With multiple views you can also understand this course sooner or later.
 
-## 📚 If you are old school and need a guided training - Courses 📖  
+📚 ## If you are old school and need a guided training - Courses   
 
 Wasting money on a course that is not very effective or you don't like isn't a good idea, so I recommend this Udemy course if you are willing to shell out a few bucks.
 
@@ -147,7 +147,7 @@ This one is **free**.
 Learn how to get started with app development and create your very first iOS app with the help of academics from **Curtin University**. A course on edX, you can enroll for free and the access expires on **May 23**.  
 
 
-## 💁🏽‍♂️ Conclusion 😎
+ 💁🏽‍♂️## Conclusion
 
 This age is the age of information. One can easily get lost in the ocean of data and the sources available on the internet. You can find hundreds(or maybe thousands) of gifted developers with unique perspectives. Some are good with the basics and some are really good at illustrating examples on a wide variety of complex features in Swift. They can simplify complex concepts with relevant tutorials and guide you through the learning process. 
 
