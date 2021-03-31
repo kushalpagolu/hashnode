@@ -13,6 +13,12 @@ Well look no further, this is an honest attempt to guide you through the learnin
 
 Swift is the result of the latest research on programming languages, combined with decades of experience building Apple platforms. Named parameters are expressed in a clean syntax that makes APIs in Swift even easier to read and maintain. Create beautiful, dynamic apps faster using Swift. 
 
+#### What is SwiftUI? What is UIKit?
+
+ **SwiftUI** - is a declarative framework. Implies you declare the user interface and behavior for your app on every platform.
+
+**UIKit** - is an imperative framework. Implies you construct, and manage a graphical, event-driven user interface for your iOS or tvOS app.
+
 As a developer **reading** is one step in the process of learning anything new, whereas **developing** an app/getting hands-on experience is the **most important one**. It helps understand what you have learned and also clears doubts while learning new technology.
 
 You can easily get carried away with so many **free** available options and articles on the internet. But without a plan or proper guidance, you can simply lose your way while learning a programming language like Swift.
