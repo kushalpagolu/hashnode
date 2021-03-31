@@ -202,4 +202,4 @@ and
 Feel free to share your sources in the comments section. After all, sharing is caring and in the **dev world**, the quote makes much more sense :)
 
 
-### P.S - If you like this post try the animation effect on the emojis above. Applied CSS on my article page and it works really well :)****
+### P.S - If you like this post try the animation effect on the emojis above. Applied CSS on my article page and it works really well :)
