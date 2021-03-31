@@ -15,9 +15,11 @@ Swift is the result of the latest research on programming languages, combined wi
 
 #### What is SwiftUI? What is UIKit?
 
+Both are **frameworks** used to build the user interface for apps.
+
  **SwiftUI** - is a declarative framework. Implies you declare the user interface and behavior for your app on every platform.
 
-**UIKit** - is an imperative framework. Implies you construct, and manage a graphical, event-driven user interface for your iOS or tvOS app.
+**UIKit** - is an imperative framework. Implies you construct, and manage a graphical, event-driven user interface by adding functions to elements like text, buttons, and controls, etc for your iOS or tvOS app.
 
 As a developer **reading** is one step in the process of learning anything new, whereas **developing** an app/getting hands-on experience is the **most important one**. It helps understand what you have learned and also clears doubts while learning new technology.
 
@@ -200,4 +202,4 @@ and
 Feel free to share your sources in the comments section. After all, sharing is caring and in the **dev world**, the quote makes much more sense :)
 
 
-### P.S - If you like this post try the animation effect on the emojis above. Applied CSS on my article page and it works really well :)
+### P.S - If you like this post try the animation effect on the emojis above. Applied CSS on my article page and it works really well :)****
