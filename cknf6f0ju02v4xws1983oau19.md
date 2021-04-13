@@ -79,7 +79,7 @@ Whenever you define a new structure or class, you define a new **Swift type**. S
 
 ### Classes have additional capabilities that structures don’t have:
 
-##### 1.**Inheritance** enables a class to inherit the characteristics of another.
+1. **Inheritance** enables a class to inherit the characteristics of another.
 
 ```
 class Mutant {
@@ -97,17 +97,17 @@ class TheBrotherhood: Mutant {
 
 ```
 
-##### 2.**Type casting** enables you to check and interpret the type of a class instance at runtime.
+2.**Type casting** enables you to check and interpret the type of a class instance at runtime.
 
-##### 3.**Deinitializers** enable an instance of a class to free up any resources it has assigned. It performs any custom cleanup just before an instance of that class is deallocated.
+3. **Deinitializers** enable an instance of a class to free up any resources it has assigned. It performs any custom cleanup just before an instance of that class is deallocated.
 
-##### 4.**Reference counting** allows more than one reference to a class instance.
+4. **Reference counting** allows more than one reference to a class instance.
 
-##### 5.If you do not assign values to your variables and constants in class, you need to explicitly **initialize** the members using the **init( )** method. 
+5.If you do not assign values to your variables and constants in class, you need to explicitly **initialize** the members using the **init( )** method. 
 
 > Swift also allows you to assign default values to the variable definition and by assigning default values, you can avoid the **init()** method of its members in the class or struct definition.
 
-##### 6.Unlike structures, class instances don’t receive a default **memberwise **initializer.
+6. Unlike structures, class instances don’t receive a default **memberwise **initializer.
 
 
 ### Differences
