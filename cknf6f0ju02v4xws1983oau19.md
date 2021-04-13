@@ -303,7 +303,7 @@ They are passed around using pointers, a pointer to the heap memory location whe
 var xman2 = xman1 
 //variable "xman2" is now pointing to the address location of "xman1" in the heap.
 
-print("Address location for Object xman1 \(Unmanaged.passUnretained(xman2).toOpaque())")
+print("Address location for Object xman2 \(Unmanaged.passUnretained(xman2).toOpaque())")
 
 //Address location for Object xman2 0x0000600003c54730
 
@@ -356,13 +356,12 @@ let revenger = avenger1
 
 revenger.name = "valkyrie" // error
 
-var revenger = avenger1
-
-revenger1.name = "valkyrie" // this will work
-
 //Swift compiler throws error -
 //Cannot assign to property: 'revenger' is a 'let' constant
 //Change 'let' to 'var' to make it mutable
+
+var revenger1 = avenger1
+revenger1.name = "valkyrie" // this will work
 
 ```
 When a value type is declared as **"let"** the contents of it cannot be modified.
@@ -372,8 +371,8 @@ When a value type is declared as **"let"** the contents of it cannot be modified
 This gives a huge advantage in favor of **value types** over **reference types** in terms of **performance**.
 
 
-
 ### Now what? Should I use a Structure or a Class for my requirement?
+
 
 **Structure** instances are always passed by value, and class instances are always passed by reference. This means that they are suited to different kinds of tasks. As you consider the data constructs and functionality that you need for a project, decide whether each data construct should be defined as a class or as a structure.
 
