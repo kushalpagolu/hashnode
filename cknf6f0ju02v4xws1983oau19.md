@@ -51,7 +51,7 @@ print(avenger1.name) // prints thor
 
 ```
 
-#### Example of a simple Class in swift :
+#### Example of a Class in swift :
 ```
 class Xmen {
      var name: String
@@ -117,9 +117,11 @@ I cannot emphasize enough how important this concept is to become better at deve
 
 Before we get into differences, let's discuss an important concept called **Memory**.
 
+Although Swift intelligently uses ARC for memory management, It is crucial for developers to know the concept of **Memory** and how is it used by Swift to assign to its types.
+
+
 ### Memory Address
 
-Although Swift intelligently uses ARC for memory management, It is crucial for developers to know the concept of **Memory** and how is it used by Swift to assign to its types.
 
 Your devices have a crucial component called **RAM (Random Access Memory)**, which is used to store working data when you are using the device. 
 
@@ -325,7 +327,7 @@ print(xman2.name)
 
 3.**Structs** have no Inheritance.
 
-You **cannot inherit** the features from other structures or classes but you can conform to a protocol.
+You **cannot inherit** the features from other structures or classes but you can conform to a **protocol**.
 
 ```
 struct Revenger: Avenger {
