@@ -261,7 +261,7 @@ Memory management is the way of controlling memory allocation and making it free
 
 #### Now let's discuss the differences.
 
-1.Structures are value types.
+1.**Structures** are value types.
 
 When you pass a value type to a variable, a **copy** of the existing instance is made. The **new instance** will have its own memory in the stack.
 
@@ -296,7 +296,7 @@ withUnsafePointer(to: avenger2) {
 
 ```
 
-##### 2.Classes are reference types.
+2.**Classes** are reference types.
 They are passed around using pointers, a pointer to the heap memory location where the class is located.
 
 ```
@@ -322,7 +322,7 @@ print(xman2.name)
 ```
 
 
-3.Structs have no Inheritance.
+3.**Structs** have no Inheritance.
 
 You **cannot inherit** the features from other structures or classes but you can conform to a protocol.
 
@@ -335,9 +335,10 @@ struct Revenger: Avenger {
 // "Inheritance from non-protocol type 'Avenger' "
 ```
 
-##### 4.Classes in Swift have a single inheritance.
+4.**Classes** in Swift have a single inheritance.
 
 You can always use another class for inheritance. But swift does not support multiple inheritance. It allows single inheritance.
+
 ```
 class TheBrotherhood: Mutant, Xmen {
 
@@ -348,12 +349,16 @@ class TheBrotherhood: Mutant, Xmen {
 5.The struct has a memberwise initializer that initializes all the stored properties in a struct.
 
 
-##### 6.A structure instance can only be mutated if it’s defined as a **variable** and it will only update the referencing instance. 
+6.A **structure instance **can only be mutated if it’s defined as a **variable** and it will only update the referencing instance. 
 
 ```
 let revenger = avenger1
 
 revenger.name = "valkyrie" // error
+
+var revenger = avenger1
+
+revenger1.name = "valkyrie" // this will work
 
 //Swift compiler throws error -
 //Cannot assign to property: 'revenger' is a 'let' constant
@@ -362,7 +367,7 @@ revenger.name = "valkyrie" // error
 ```
 When a value type is declared as **"let"** the contents of it cannot be modified.
 
-##### 7.Value types do not need **dynamic memory allocation** or reference counting, both of which are expensive operations. At the same time methods on value types are dispatched statically. 
+7.**Value types** do not need **dynamic memory allocation** or reference counting, both of which are expensive operations. At the same time methods on value types are dispatched statically. 
 
 This gives a huge advantage in favor of **value types** over **reference types** in terms of **performance**.
 
