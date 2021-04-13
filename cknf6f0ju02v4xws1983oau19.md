@@ -209,7 +209,7 @@ When we declare variables in Swift/Objective-C, the operating system will alloca
 
 ![maxHeapresdefault.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1618130664893/W6kxBEp6M.jpeg)
 
-#### Example of minHeap
+#### Example of a minHeap
 
 ![minHeap.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618131013376/j7lbq3gIZ.png)
 
@@ -225,7 +225,7 @@ Structures, Arrays, Sets, Dictionaries, Enums, Tuples, in fact, every type **exc
 
 **Reference types** like Class, Function, and Closure are allocated memory on the heap. In some cases, they are assigned to the stack as well.
 
-I will discuss these exceptions in my next post on ARC.
+I will discuss these exceptions in my next post on **ARC**.
 
 
 > Note: Compiler does a lot of optimization in different phases. Sometimes we don’t know whether we are actually using a value type or a reference type.
@@ -297,6 +297,7 @@ withUnsafePointer(to: avenger2) {
 ```
 
 2.**Classes** are reference types.
+
 They are passed around using pointers, a pointer to the heap memory location where the class is located.
 
 ```
@@ -317,7 +318,7 @@ xman1.name = "wolverine"
 print(xman1.name)
 print(xman2.name)
 // both the statements print "wolverine". 
-//As the value is assigned to property "name" in that address location and both the objects xman1, xman2 are pointing to the same address location on HEAP.
+//The value is assigned to property "name" in that address location and both the objects xman1, xman2 are pointing to the same address location on HEAP.
 
 ```
 
@@ -335,7 +336,7 @@ struct Revenger: Avenger {
 // "Inheritance from non-protocol type 'Avenger' "
 ```
 
-4.**Classes** in Swift have a single inheritance.
+4.**Classes** in Swift have single inheritance.
 
 You can always use another class for inheritance. But swift does not support multiple inheritance. It allows single inheritance.
 
@@ -346,7 +347,7 @@ class TheBrotherhood: Mutant, Xmen {
 // The Swift compiler throws error - 
 //"Multiple inheritance from classes 'Mutant' and 'Xmen'"
 ```
-5.The struct has a memberwise initializer that initializes all the stored properties in a struct.
+5.**Structures** have a memberwise initializer that initializes all the stored properties in a struct.
 
 
 6.A **structure instance **can only be mutated if it’s defined as a **variable** and it will only update the referencing instance. 
