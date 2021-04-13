@@ -51,7 +51,7 @@ print(avenger1.name) // prints thor
 
 ```
 
-#### Example of a simple Class in swift :
+#### Example of a Class in swift :
 ```
 class Xmen {
      var name: String
@@ -103,7 +103,7 @@ class TheBrotherhood: Mutant {
 
 4.**Reference counting** allows more than one reference to a class instance.
 
-5.If you do not assign values to your variables and constants in class, you need to explicitly **initialize** the members using the **init( )** method. 
+5.If you do not assign values to your variables and constants declared in a class, you need to explicitly **initialize** the members using the **init( )** method. 
 
 > Swift also allows you to assign default values to the variable definition and by assigning default values, you can avoid the **init()** method of its members in the class or struct definition.
 
