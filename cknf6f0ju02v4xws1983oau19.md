@@ -306,7 +306,7 @@ var xman2 = xman1
 
 print("Address location for Object xman2 \(Unmanaged.passUnretained(xman2).toOpaque())")
 
-//Address location for Object xman2 0x0000600003c54730
+//Address location for Object xman2 0x0000600003662800
 
 // xman1 and xman2 will have the same address and both objects are pointing to the same memory location now.
 
@@ -416,3 +416,6 @@ Also, if you do decide to go for a class, consider marking it as final and help 
 
 
 Hopefully, in time you’ll be able to decide about choosing between a class or a struct. It’s definitely not always easy and possible to go for a struct but it should be considered the default when programming in Swift. Once you’ll use structs more often I’m pretty sure you’ll get used to working with them.
+
+
+**Note:** Every time you run these examples on playground or run your application in xcode a new memory address is alocated from the available memory. 
