@@ -79,7 +79,7 @@ Whenever you define a new structure or class, you define a new **Swift type**. S
 
 ### Classes have additional capabilities that structures don’t have:
 
-1. **Inheritance** enables a class to inherit the characteristics of another.
+1.**Inheritance** enables a class to inherit the characteristics of another.
 
 ```
 class Mutant {
@@ -99,18 +99,18 @@ class TheBrotherhood: Mutant {
 
 2.**Type casting** enables you to check and interpret the type of a class instance at runtime.
 
-3. **Deinitializers** enable an instance of a class to free up any resources it has assigned. It performs any custom cleanup just before an instance of that class is deallocated.
+3.**Deinitializers** enable an instance of a class to free up any resources it has assigned. It performs any custom cleanup just before an instance of that class is deallocated.
 
-4. **Reference counting** allows more than one reference to a class instance.
+4.**Reference counting** allows more than one reference to a class instance.
 
 5.If you do not assign values to your variables and constants in class, you need to explicitly **initialize** the members using the **init( )** method. 
 
 > Swift also allows you to assign default values to the variable definition and by assigning default values, you can avoid the **init()** method of its members in the class or struct definition.
 
-6. Unlike structures, class instances don’t receive a default **memberwise **initializer.
+6.Unlike structures, class instances don’t receive a default **memberwise **initializer.
 
 
-### Differences
+## Differences
 
 In all my Swift-related posts I tried to explain value type and reference type vaguely. So I decided to dig a little deeper and tried explaining how RAM works in IOS devices. 
 I cannot emphasize enough how important this concept is to become better at developing robust applications using Swift.
@@ -320,7 +320,9 @@ print(xman2.name)
 //As the value is assigned to property "name" in that address location and both the objects xman1, xman2 are pointing to the same address location on HEAP.
 
 ```
-##### 3.Structs have no Inheritance.
+
+
+3.Structs have no Inheritance.
 
 You **cannot inherit** the features from other structures or classes but you can conform to a protocol.
 
@@ -343,7 +345,7 @@ class TheBrotherhood: Mutant, Xmen {
 // The Swift compiler throws error - 
 //"Multiple inheritance from classes 'Mutant' and 'Xmen'"
 ```
-##### 5.The struct has a memberwise initializer that initializes all the stored properties in a struct.
+5.The struct has a memberwise initializer that initializes all the stored properties in a struct.
 
 
 ##### 6.A structure instance can only be mutated if it’s defined as a **variable** and it will only update the referencing instance. 
