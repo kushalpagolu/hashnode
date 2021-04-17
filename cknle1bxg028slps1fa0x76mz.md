@@ -86,7 +86,7 @@ Fork this [repository](https://github.com/kratzert/kratzert.github.io) by clicki
 
 I made changes of my own. For starters I used index.md file instead of the default index.html from the Kratzer repository.
 
-### 2. Rename the repository to `<yourusername>.github.io`
+### 2. Rename the repository to <yourusername>.github.io
 
 Once you **fork** your desired repo **Settings** tab is now available.
 
@@ -95,18 +95,18 @@ Once you **fork** your desired repo **Settings** tab is now available.
 ![Screen Shot 2021-04-16 at 1.22.18 AM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618618158691/lMEPwgseD.png)
 
 
-This will create a **GitHub User page** ready with the **Beautiful Jekyll** template that will be available at `http://<yourusername>.github.io`.  
+This will create a **GitHub User page** ready with the **Beautiful Jekyll** template that will be available at ***http://<yourusername>.github.io***.  
 
 
 ### 3. Customize your website settings
 
-Edit the **`_config.yml`** file to change all the settings to reflect your site. 
+Edit the **_config.yml** file to change all the settings to reflect your site. 
 
 - To edit the file, **click on it** and then click on the **pencil icon **.
 
 ![Screen Shot 2021-04-16 at 8.32.43 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618621249020/5IV5arcIy.png)
 
-- The settings in the file are self-explanatory and added comments were added inside the file to help you further. 
+- The settings in the file are self-explanatory and comments were added inside the file to help you further. 
 
 - Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
 
@@ -118,15 +118,17 @@ Edit the **`_config.yml`** file to change all the settings to reflect your site.
 To add **pages** to your site, you can either write a **markdown** file (`.md`) or you can write an **HTML** file.  
 
 You can look at some files on this site to get an idea of how to write markdown. 
-To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). 
+To look at existing files, click on any file that ends in `.md`, for example [aboutme.md](https://github.com/kratzert/kratzert.github.io/blob/master/aboutme.md). 
+
 On the **page**, you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the **pencil icon** to edit the file, you will see the **markdown** that generated the pretty text.
 
 In contrast, look at [`index.html`](https://github.com/kratzert/kratzert.github.io) in Frederik Kratzert repo. That's how you write HTML. If you are good with **HTML** and **CSS** then you can make much better website.
 
-Any file that you add inside the [`_posts`](https://github.com/kushalpagolu/kushalpagolu.github.io/tree/master/_posts) directory will be treated as a blog entry. You can look at the existing files there to get an idea of how to write blog posts.  
+Any file that you add inside the [_posts](https://github.com/kratzert/kratzert.github.io/tree/master/_posts) directory will be treated as a blog entry. You can look at the existing files there to get an idea of how to write blog posts.  
 
 After you successfully add your **own post**, you can delete the existing files inside [`_posts`](https://github.com/kushalpagolu/kushalpagolu.github.io/tree/master/_posts) to remove the **sample posts**, as they are just demo posts to help you learn.
 
+**Note: ** The blogposts from **Hashnode** can directly be copied into new .md files as they are already formatted in **markdown**. 
 
 ## Last important thing: YAML front matter ("parameters" for a page)
 
