@@ -86,7 +86,7 @@ Fork this [repository](https://github.com/kratzert/kratzert.github.io) by clicki
 
 I made changes of my own. For starters I used index.md file instead of the default index.html from the Kratzer repository.
 
-### 2. Rename the repository to <yourusername>.github.io
+### 2. Rename the repository to yourusername.github.io
 
 Once you **fork** your desired repo **Settings** tab is now available.
 
@@ -95,7 +95,7 @@ Once you **fork** your desired repo **Settings** tab is now available.
 ![Screen Shot 2021-04-16 at 1.22.18 AM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618618158691/lMEPwgseD.png)
 
 
-This will create a **GitHub User page** ready with the **Beautiful Jekyll** template that will be available at ***http://<yourusername>.github.io***.  
+This will create a **GitHub User page** ready with the **Beautiful Jekyll** template that will be available at ***http://yourusername.github.io***.  
 
 
 ### 3. Customize your website settings
