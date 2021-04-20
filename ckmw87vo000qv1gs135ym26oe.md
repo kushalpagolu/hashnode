@@ -182,10 +182,10 @@ You might feel exhausted by the overwhelming things you learn.
 
 ***Apple is working hard to make this language a go-to programming language for developers who wants to develop apps on any native apple platform. Every year WWDC comes up with new features in Swift.***
 
-> This year **WWDC21** is scheduled from June 7 to June 11. Check this [Swift Student Challenge](https://developer.apple.com/wwdc21/swift-student-challenge) for devs. This challenge is open to anyone above 13 and interested in Swift.
+> Every year **WWDC** conducts a swift student challenge. Check this [Swift Student Challenge](https://developer.apple.com/wwdc21/swift-student-challenge) for devs in 2021. This challenge is open to anyone above 13 and interested in Swift.
 
 
-I mean, just like the **iPhone** increments from ** X, 11 to 12**, etc year after year, Swift also comes with the latest version every now and then. The latest version being **Swift 5.4**. The language may not be perfect but has rich features, it sure is modern and fun to learn.
+I mean, just like the **iPhone** increments from ** X, 11 to 12**, etc year after year, Swift also comes with the latest version every now and then. The latest version being **Swift 5.4**. The language may not be **perfect** but has **rich features**, it sure is modern and fun to learn.
 
 You can always buy **Books** online or from stores. Read reviews and do some research if you decide to buy a book. For now, I am only using the official apple documentation **PDF**, and for the time being, I felt it will suffice.
 
